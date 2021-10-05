@@ -93,6 +93,11 @@ export default {
           icon: 'mdi-account-clock',
           title: 'About',
           to: '/about'
+        },
+        {
+          icon: 'mdi-view-dashboard-outline',
+          title: 'Dashboard',
+          to: '/dashboard'
         }
       ],
       miniVariant: false,

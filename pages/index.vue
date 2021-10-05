@@ -4,7 +4,7 @@
     max-width="344"
   >
     <v-img
-      src="http://johnlevytbonifacio.selfaith.com/wp-content/uploads/2021/01/119518678_145686613864372_4202716177398651583_o-980x994.jpg"
+      src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t1.6435-9/119518678_145686613864372_4202716177398651583_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=174925&_nc_ohc=n85sGWWalboAX_Jfn_0&_nc_ht=scontent.fdvo2-1.fna&oh=e9bdb6808e41b8cb89928a85225d2abd&oe=617ECC71"
       height="200px"
     ></v-img>
 

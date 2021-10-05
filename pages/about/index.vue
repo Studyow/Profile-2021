@@ -1,46 +1,15 @@
 <template>
   <v-container>
     <v-row justify="space-around">
-      <v-card width="400">
-        <v-img
-        height="200px"
-        src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t39.30808-6/240663095_391432195665100_1323342280268819862_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gHPBeINbQhEAX9VGuRq&_nc_ht=scontent.fcgy1-1.fna&oh=9227f15aef7d550227f0d5a9502ffc13&oe=61329269"
-        >
-          <v-app-bar
-            flat
-            color="rgba(0, 0, 0, 0)"
-          >
-
-            <v-toolbar-title class="text-h6 white--text pl-0">
-              About Me
-            </v-toolbar-title>
-
-            <v-spacer></v-spacer>
-
-            <v-btn
-              color="white"
-              icon
-            >
-              <v-icon>mdi-dots-vertical</v-icon>
-            </v-btn>
-          </v-app-bar>
-
-          <v-card-title class="white--text mt-8">
-            <v-avatar size="56">
-              <img
-                alt="user"
-                src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.6435-9/148506460_270336911107963_6828876521119950891_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=gdZbEjRiv1UAX-4w594&_nc_ht=scontent.fcgy1-1.fna&oh=4ec5cf005053394a5136dc0eef215965&oe=615453C4"
-              >
-            </v-avatar>
-            <p class="ml-3">
-              Levz tibayan
-            </p>
-          </v-card-title>
-        </v-img>
-
+      <v-card
+      class="ma-2 mb-2"
+      color="grey lighten-5"
+      outlined
+      width="100%"
+      >
         <v-card-text>
-          <div class="font-weight-bold ml-8 mb-2">
-            My Experience
+          <div class="font-weight-bold mb-2">
+            <h4>My Experience</h4>
           </div>
 
           <v-timeline
