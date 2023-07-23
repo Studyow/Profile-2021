@@ -22,6 +22,11 @@
             <v-list-item-title v-text="item.title" />
           </v-list-item-content>
         </v-list-item>
+
+        <br><br>
+
+        <ContactMe/>
+
       </v-list>
     </v-navigation-drawer>
     <v-app-bar
@@ -50,6 +55,7 @@
         <Nuxt />
       </v-container>
     </v-main>
+
     <v-navigation-drawer
       v-model="rightDrawer"
       :right="right"
@@ -66,7 +72,9 @@
           <v-list-item-title>Switch drawer (click me)</v-list-item-title>
         </v-list-item>
       </v-list>
+      <Profile_dev/>
     </v-navigation-drawer>
+
     <v-footer
       :absolute="!fixed"
       app
@@ -77,7 +85,11 @@
 </template>
 
 <script>
+import Profile_dev from '../components/Boards/profile-dev.vue'
+import ContactMe from '../components/Boards/contact.vue'
+
 export default {
+  components: { Profile_dev, ContactMe },
   data () {
     return {
       clipped: false,
@@ -85,25 +97,25 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'mdi-apps',
-          title: 'Profile',
+          icon: 'mdi-home-edit',
+          title: 'Home Resume',
           to: '/'
         },
-        {
-          icon: 'mdi-account-clock',
-          title: 'About',
-          to: '/about'
-        },
+        // {
+        //   icon: 'mdi-information',
+        //   title: 'About',
+        //   to: '/about'
+        // },
         {
           icon: 'mdi-view-dashboard-outline',
-          title: 'Dashboard',
+          title: 'Experience',
           to: '/dashboard'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Web App Resume'
+      title: 'Programmer: Software Engineer | Web Developer'
     }
   }
 }

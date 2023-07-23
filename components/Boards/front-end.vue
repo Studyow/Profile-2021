@@ -1,18 +1,18 @@
 <template>
     <div>
         <v-card flat 
-        class="ma-md-2" 
+        class="ma-2 mb-2" 
         color="grey lighten-5" 
         outlined>
             <div class="d-flex pa-3">
-                <h4>Font End tools</h4>
+                <h4>Front-End Skills</h4>
             </div>
             <v-divider></v-divider>
 
             <div v-for="project in projects" :key="project.title">
                 <v-layout wrap class="pa-2" >
                     <v-flex xs4 md4>
-                        <div class="caption gray--text">Design tool</div>
+                        <div class="caption gray--text">{{ project.tool }}</div>
                         <div>{{ project.title }}</div>
                     </v-flex>
                     <v-flex xs4 sm4 md5>
@@ -57,15 +57,19 @@ export default {
     data() {
         return {
             projects: [
+                {tool: 'react framework', title: 'Next JS', progress: '88', status: 'always'},
+                {tool: 'js framework', title: 'Vue JS', progress: '92', status: 'always'},
+                {tool: 'js framework', title: 'React JS', progress: '90', status: 'always'},
+                {tool: 'web framework', title: 'Nuxt JS', progress: '90', status: 'always'},
+                {tool: 'modern & pure js', title: 'JavaScript', progress: '95', status: 'always'},
+                
+                {tool: 'dom', title: 'HTML 5', progress: '90', status: 'always'},
+                {tool: 'framework', title: 'Bootstrap', progress: '88', status: 'not-always'},
+                {tool: 'blog', title: 'Wordpress DIVI', progress: '95', status: 'always'},
+
+                {tool: 'css', title: 'SASS/CSS', progress: '90', status: 'always'},
                 {tool: 'adobe', title: 'Illustrator', progress: '95', status: 'always'},
                 {tool: 'adobe', title: 'Photoshop', progress: '90', status: 'always'},
-                {tool: 'js framework', title: 'Vue JS', progress: '88', status: 'always'},
-                {tool: 'modern js', title: 'JavaScript', progress: '80', status: 'always'},
-                {tool: 'css', title: 'SASS/CSS', progress: '90', status: 'always'},
-                {tool: 'dom', title: 'HTML 5', progress: '90', status: 'always'},
-                {tool: 'framework', title: 'Bootstrap', progress: '80', status: 'not-always'},
-                {tool: 'adobe', title: 'Animate', progress: '80', status: 'not-always'},
-                {tool: 'blog', title: 'Wordpress DIVI', progress: '95', status: 'always'},
             ]
         }
     }

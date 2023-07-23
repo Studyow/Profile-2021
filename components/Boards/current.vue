@@ -1,11 +1,11 @@
 <template>
   <v-card
-    class="ma-md-2"
+    class="ma-2 mb-4"
     color="grey lighten-5"
     outlined
   >
     <div class="d-flex pa-3">
-        <h4>Currently</h4>
+        <h4>Currently learning</h4>
     </div>
 
     <v-divider></v-divider>
@@ -24,7 +24,7 @@
 
                 <v-list-item-subtitle
                   class="text--primary"
-                  v-text="item.headline"
+                  v-text=""
                 ></v-list-item-subtitle>
 
                 <v-list-item-subtitle v-text="item.subtitle"></v-list-item-subtitle>
@@ -68,33 +68,33 @@
       items: [
         {
           action: 'Jan 2021',
-          headline: 'Brunch this weekend?',
-          subtitle: `I'll be in your neighborhood doing errands this weekend. Do you want to hang out?`,
-          title: 'Learn Advance JavaScript',
+          headline: '',
+          subtitle: `Its a vue js frame work for a better looking pages`,
+          title: 'vuetify',
         },
         {
           action: 'Feb 2021',
           headline: 'Summer BBQ',
-          subtitle: `Wish I could come, but I'm out of town this weekend.`,
-          title: 'me, Scrott, Jennifer',
+          subtitle: `it's fast , light and wide`,
+          title: 'Express JS',
         },
         {
           action: 'jun 2021',
           headline: 'Oui oui',
-          subtitle: 'Do you have Paris recommendations? Have you ever been?',
-          title: 'Sandra Adams',
+          subtitle: 'i learned more under the node js',
+          title: 'Node JS',
         },
         {
           action: 'Aug 2021',
           headline: 'Birthday gift',
-          subtitle: 'Have any ideas about what we should get Heidi for her birthday?',
-          title: 'Trevor Hansen',
+          subtitle: 'it will be more smoother and control',
+          title: 'vue SASS animation',
         },
         {
           action: 'Sep 2021',
           headline: 'Recipe to try',
-          subtitle: 'We should eat this: Grate, Squash, Corn, and tomatillo Tacos.',
-          title: 'Britta Holt',
+          subtitle: 'Validate some entry for the form to handle',
+          title: 'form Validation',
         },
       ],
     }),

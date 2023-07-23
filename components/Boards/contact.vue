@@ -5,8 +5,8 @@
     outlined
   >
     <v-toolbar
-      color="teal"
-      dark
+      color="teal accent-4"
+      light
     >
 
       <v-toolbar-title >Contact</v-toolbar-title>
@@ -44,27 +44,32 @@
   export default {
     data: () => ({
       items: [
-        {
-          action: 'mdi-cellphone',
-          items: [{ title: '09126321772' }],
-          title: 'Cell Number',
-        },
-        {
-          action: 'mdi-facebook',
-          active: false,
-          items: [{ title: 'fb.com/caped.man.9/' }],
-          title: 'Facebook',
-        },
-        {
-          action: 'mdi-skype',
-          items: [{ title: 'Johnlevybonifacio' }],
-          title: 'skype',
-        },
-        {
-          action: 'mdi-gmail',
-          items: [{ title: 'tibayanlevz@gmail.com' }],
-          title: 'Email',
-        },
+          {
+            action: 'mdi-cellphone',
+            items: [{ title: 'PH +63 9816228084' }],
+            title: 'Number',
+          },
+          {
+            action: 'mdi-linkedin',
+            items: [{ title: 'linkedin.com/in/levy021/' }],
+            title: 'Linkedin',
+          },
+          {
+            action: 'mdi-facebook',
+            active: false,
+            items: [{ title: 'facebook.com/leevee03' }],
+            title: 'Facebook',
+          },
+          {
+            action: 'mdi-skype',
+            items: [{ title: 'Johnlevybonifacio' }],
+            title: 'skype',
+          },
+          {
+            action: 'mdi-gmail',
+            items: [{ title: 'letsgetdothese@gmail.com' }],
+            title: 'Email',
+          },
       ],
     }),
   }
