@@ -65,7 +65,10 @@ module.exports = {
       }
     }
   },
-
+  mode: 'static',
+  router: {
+     base: '/Profile-2021/'
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extractCSS: true,
